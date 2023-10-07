@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashino-Cart</title>
+    <link rel="stylesheet" href="/styles.css">
+    <!-- FONT ASWOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <header></header>
+
+    <div id="cartpage">
+        <div class="cart-items">
+            <h3 class="cart-heading">Items in cart</h3>
+            <div class="item-container">
+                <div class="item-img">
+                    <img src="/images/BaggyJeans.jpg" alt="cart-item" height="200">
+                </div>
+                <div class="item-info">
+                    <h4>Baggy Jeans</h4>
+                    <h5>$25</h5>
+                    <i class="fa-solid fa-trash fa-lg item-logo" style="color: #FC2947;"></i>
+                </div>
+                <div class="item-quantity">
+                    <i class="fa-solid fa-plus fa-lg item-logo" style="color: #FC2947;"></i>
+                    <input type="number" id="quantity-box" value="1">
+                    <i class="fa-solid fa-minus fa-lg item-logo" style="color: #FC2947;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="summary">
+            <h3 class="cart-heading">Summary</h3>
+            <div class="summary-container">
+                <div class="first-summary">
+                    <p>cost</p>
+                    <p>$25</p>
+                    <p>shipping</p>
+                    <p>$5</p>
+                </div>
+                <hr class="summary-hr">
+                <div class="second-summary">
+                    <h5>Total</h5>
+                    <h5>$30</h5>
+                </div>
+                <button type="submit" id="checkout-btn">Checkout</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer></footer>
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(function () {
+            $("header").load("/pages/header.html");
+            $("footer").load("/pages/footer.html");
+        });
+    </script>
+</body>
+
+</html>
