@@ -1,6 +1,6 @@
 # fashino-clothing
 
-![Cover](cover.png)
+![Cover](Cover.png)
 
 • Developed Fashino, an innovative E-commerce clothing website, offering a dynamic shopping experience with a wide fashion range.
 
